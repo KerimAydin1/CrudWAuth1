@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Contact Us</title>
+</head>
+<body class="dark:bg-gray-900">
+    <main>
+        <section class="py-16">
+            <div class="max-w-6xl mx-auto p-4 md:p-16 xl:p-20">
+                <div class="lg:w-2/3 space-y-5 text-center mx-auto">
+                    <h1 class="text-gray-800 uppercase tracking-widest dark:text-white font-medium text-4xl">
+                        Get in touch
+                    </h1>
+                    <div class="h-0.5 bg-red-500 w-14 mx-auto"></div>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-16">
+                    </div>
+                    <p class="text-gray-400 dark:text-gray-300 text-base leading-6">
+                        We thrive when coming up with innovative ideas but also understand 
+                        that a smart concept should be supported with measurable results
+                    </p>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-16">
+                        <address>
+                            <div class="mb-6">
+                                <h2 class="text-base font-medium mb-2 dark:text-white">
+                                    Office Adress 1:
+                                </h2> 
+                                <p class="text-gray-400 dark:text-gray-300 text-sm font-medium leading-5">
+                                    11111 kosovos street    
+                                </p>
+                            </div>
+                        </address>
+                        <div class="lg:col-span-2">
+                            <form action="">
+                                <div class="space-y-6"> 
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        <label for="name" class="sr-only">Name</label>
+                                        <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        class="form-input border-gray-300 text-gray-900 text-sm rounded focus:ring-0 focus:border-gray-400 block w-full p-3 dark:bg-zinc-700/20 dark:border-zinc-700/50 dark:placeholder:text-gray-300/50 dark:text-gray-300/50"
+                                        placeholder="Enter Your Name"
+                                        >
+                                        <label for="email" class="sr-only">Email</label>
+                                        <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        class="form-input border-gray-300 text-gray-900 text-sm rounded focus:ring-0 focus:border-gray-400 block w-full p-3 dark:bg-zinc-700/20 dark:border-zinc-700/50 dark:placeholder:text-gray-300/50 dark:text-gray-300/50"
+                                        placeholder="Enter Your Email"
+                                        >
+                                    </div>
+                                    <label for="subject" class="sr-only">subject</label>
+                                    <input 
+                                    type="text"
+                                    name="subject"
+                                    id="subject"
+                                    class="form-input border-gray-300 text-gray-900 text-sm rounded focus:ring-0 focus:border-gray-400 block w-full p-3 dark:bg-zinc-700/20 dark:border-zinc-700/50 dark:placeholder:text-gray-300/50 dark:text-gray-300/50"
+                                    placeholder="Enter your subject"
+                                    >
+                                    <label for="comments" class="sr-only">Message</label>
+                                    <textarea
+                                    name="comments"
+                                    id="comments"
+                                    class="form-input border-gray-300 text-gray-900 text-sm rounded focus:ring-0 focus:border-gray-400 block w-full p-3 dark:bg-zinc-700/20 dark:border-zinc-700/50 dark:placeholder:text-gray-300/50 dark:text-gray-300/50"
+                                    placeholder="Enter your message"
+                                    rows="3"
+                                    ></textarea>
+                                    <div class="text-right">
+                                        <input 
+                                        type="submit"
+                                        id="submit"
+                                        name="send"
+                                        class="inline-block px-5 py-2.5 rounded text-sm cursor-pointer select-none outline-none transition-all duration-500 focus:outline-none focus:ring-0 focus:ring-offset-0 hover:-translate-y-1.5 bg-red-500 text-white"
+                                        placeholder="Send Message"
+                                        >
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                </div>
+            </div>
+        </section>                
+    </main>
+</body>
+</html>

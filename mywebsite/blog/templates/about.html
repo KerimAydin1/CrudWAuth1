@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>About Us</title>
+</head>
+<body class="bg-slate-300">
+    <section>
+        <div class="flex flex-wrap lg:items-center p-12">
+            <div class="lg:w-1/2">
+                <img src="{% static 'Blogg.png' %}">
+            </div>
+            <div class="lg:w-1/2"> 
+                <h2 class="text-3xl lg:ml-12 font-bold mt-5 mb-5">About Us</h2>
+                <p class="lg:ml-12 mb-5 lg:text-xl">Welcome to blogs, a platform where your voice matters. Whether you're a seasoned 
+                writer or just starting, our user-friendly interface allows you to create, edit, and share your thoughts
+                with the world through engaging blogs. Join our community to express yourself, connect with like-minded individuals, and make your ideas heard.</p>
+                <button class="lg:ml-12 px-2 py-1 bg-red-500 text-sm lg:px-4 lg:py-2 lg:text-xl text-white hover:bg-green-600">Learn More</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
